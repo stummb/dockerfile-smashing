@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN apt-get update && \
     apt-get -y install nodejs && \
     apt-get -y clean
-RUN gem install bundler smashing
+RUN gem install bundler smashing:1.1.0
 RUN mkdir /smashing && \
     smashing new smashing && \
     cd /smashing && \
