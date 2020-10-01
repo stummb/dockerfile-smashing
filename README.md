@@ -1,7 +1,9 @@
 
-Fork of visibilityspots/smashing. Some of the newer commits did break our builds, and since
+Fork of https://github.com/visibilityspots/dockerfile-smashing.
+Some of the newer commits did break our builds, and since
 there is no versioning the only chance I saw was forking the complete project. And yes,
-it had to be public repositories (not my choice).
+it had to be public repositories (not my choice). You should consider using the original
+project.
 
 
 # smashing
