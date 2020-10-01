@@ -1,10 +1,10 @@
-FROM ruby:2.3.1
+FROM ruby:2.7.1
 
 RUN apt-get update && apt-get install -y --no-install-recommends apt-utils
 RUN apt-get update && \
     apt-get -y install nodejs && \
     apt-get -y clean
-RUN gem install bundler smashing:1.1.0
+RUN gem install bundler smashing
 RUN mkdir /smashing && \
     smashing new smashing && \
     cd /smashing && \
